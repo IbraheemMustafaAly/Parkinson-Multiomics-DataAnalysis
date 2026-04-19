@@ -76,7 +76,7 @@ This project performs a complete **exploratory RNA-Seq analysis** pipeline to:
 
 ---
 
-## 🔬 Analysis Pipeline
+## 🔬 Analysis Pipeline (Graphical Abstract)
 
 ![Analysis Pipeline](docs/pipeline_graphical_abstract.jpeg)
 
