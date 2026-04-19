@@ -255,6 +255,8 @@ Bioinformatician & Field Application Specialist
 
 MSc Bioinformatics — University of Sadat City
 
+**Co-Founder — OmicX Labs - Bioinformatics Freelancing Company**
+
 
 <br/>
 
