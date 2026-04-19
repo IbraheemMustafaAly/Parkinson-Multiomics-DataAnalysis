@@ -17,7 +17,7 @@
 
 <br/>
 
-*Part of the **Multiomics Data Analysis** course — Bioinformatics Diploma Program*
+*These Data is Part of work **Prof. Dr. Mohamed Hamed**  — GUC German University of Cairo*
 
 ---
 
