@@ -78,53 +78,8 @@ This project performs a complete **exploratory RNA-Seq analysis** pipeline to:
 
 ## 🔬 Analysis Pipeline
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     INPUT DATA                              │
-│         Expression Matrix (22,283 genes × 19 samples)       │
-│              +  Phenotype Table (19 × 5)                    │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────┐
-│  STEP 1 — Load & Validate                                   │
-│  • read.table()  •  dim()  •  sample name matching          │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────┐
-│  STEP 2 — Exploratory Data Analysis (EDA)                   │
-│  • Histogram of all expression values                       │
-│  • Density plot per sample (Ctrl vs PD)                     │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────┐
-│  STEP 3 — Dimensionality Reduction (PCA)                    │
-│  • prcomp()  •  2D plot (ggplot2)  •  3D plot (plotly)      │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────┐
-│  STEP 4 — Most Variable Genes                               │
-│  • rowVars() from matrixStats                               │
-│  • Sort descending  •  Select top 100                       │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-                    ┌────┴────┐
-                    ▼         ▼
-        ┌───────────────┐  ┌───────────────────────┐
-        │  HEATMAP      │  │  HEATMAP               │
-        │  Absolute     │  │  Z-score  ★ BONUS      │
-        │  Expression   │  │  Relative Expression   │
-        └───────┬───────┘  └──────────┬────────────┘
-                └──────────┬──────────┘
-                           ▼
-┌─────────────────────────────────────────────────────────────┐
-│  OUTPUT                                                     │
-│  Top 100 variable genes — Candidate PD biomarkers           │
-└─────────────────────────────────────────────────────────────┘
-```
+![Analysis Pipeline](docs/pipeline_graphical_abstract.jpeg)
+
 
 ---
 
