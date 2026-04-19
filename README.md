@@ -17,7 +17,7 @@
 
 <br/>
 
-*These Data is Part of work **Prof. Dr. Mohamed Hamed**  — GUC German University of Cairo*
+*These Data are Part of work **Prof. Dr. Mohamed Hamed**  — GUC German University of Cairo*
 
 ---
 
